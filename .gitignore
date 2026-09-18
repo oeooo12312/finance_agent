@@ -1,0 +1,35 @@
+# Environment variables / secrets
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Generated reports (keep the folder, ignore the output)
+output/*.pdf
+output/*.json
+!output/.gitkeep
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter (if you use notebooks to prototype data pulls)
+.pynb_checkpoints/
